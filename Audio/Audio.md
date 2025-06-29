@@ -1,9 +1,6 @@
 ## FMOD
 Audio is managed with FMOD middleware using this [GDExtension](https://github.com/utopia-rise/fmod-gdextension).
-***
 
-**Some files this plugin needs are not currently included in the repo so the extension has to be downloaded seperately and placed in godot/addons/.** If there's already an fmod folder there, delete it and replace it with the one from the link.
-***
 The FMOD Studio project is included in the repo in the fmod/ subfolder and it builds its bank files in godot/audio/fmod banks/Desktop.
 ### Autoloads
 - **FmodManager** interacts with the FMOD API
