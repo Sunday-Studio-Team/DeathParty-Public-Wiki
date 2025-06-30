@@ -10,7 +10,7 @@ The FMOD Studio project is included in the repo in the fmod/ subfolder and it bu
 ### Listeners and Event Emitters
 The FMOD extension adds custom FmodEventEmitter and FmodListener nodes for audio which replace Godot's built-in AudioListener and AudioStreamPlayer nodes - they use some of the same methods like `play()` and `stop()`.
 ### Parameters
-FMOD handles dynamic audio using **parameters** within the FMOD Studio project. These can be controlled through code in Godot:
+FMOD handles dynamic audio using **parameters** which are defined within the FMOD Studio project. These can be controlled through code in Godot:
 - Local parameters (usually specific to one sound) are set on an FmodEventEmitter node using `set_parameter()`
 - Global parameters are set through the FmodServer singleton using `FmodServer.set_global_parameter_by_name()`
 
