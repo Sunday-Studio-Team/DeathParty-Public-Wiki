@@ -1,7 +1,7 @@
 ## FMOD
 Audio is managed with FMOD middleware using this [GDExtension](https://github.com/utopia-rise/fmod-gdextension).
 
-The FMOD Studio project is included in the repo in the fmod/ subfolder and it builds its bank files in godot/audio/fmod banks/Desktop.
+The FMOD Studio project is included in the repo in the fmod/ subfolder and it builds bank files in godot/audio/fmod banks/Desktop.
 ### Autoloads
 - **FmodManager** interacts with the FMOD API
 - **GlobalFmodBankLoader** loads the prebuilt FMOD bank files from the path specified in Advanced Settings > Fmod > General
